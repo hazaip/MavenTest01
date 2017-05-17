@@ -1,0 +1,79 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.login-form {
+    margin: 10rem auto 0;
+    width: 40rem;
+    display: block;
+    background-color: #eeeeee;
+    box-shadow: 0 0 1.5rem 0.1rem rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    overflow: auto;
+}
+.login-form form {
+    margin: 7rem auto 0;
+    display: block;
+}
+.login-form label {
+    width: 30%;
+}
+.login-form input {
+    width: 70%;
+}
+.submit-btn {
+    margin-top: 2rem;
+    float: right;
+    width: 15rem !important;
+}
+
+.add-baby-panel {
+    width: 40rem;
+    margin: 2rem auto 0;
+    display: block;
+}
+.baby-photo-wrapper {
+    display: inline-block;
+    width: 20rem;
+    height: 20rem;
+    background-color: #eeeeee;
+    box-shadow: 0 0 1.5rem 0.1rem rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: 2rem;
+    padding: 2rem;
+}
+.baby-photo-wrapper:hover {
+    cursor: pointer;
+}
+.baby-photo {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+.baby-photo-name {
+    text-align: center;
+    color: black;
+    padding-top: 15.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.boy .baby-photo {
+    background-image: url('../image/baby_boy.png');
+}
+.girl .baby-photo{
+    background-image: url('../image/baby_girl.png');
+}
+.boy:hover {
+    background-color: #cee6f7;
+    /*background-color: #a8d1ef;*/
+}
+.girl:hover {
+    background-color: #f9e0e0;
+    /*background-color: #f9bfbf;*/
+}
